@@ -454,43 +454,53 @@
           </svg>
         </button>
         <p class="modal-text">Leave your contacts and we will call you back</p>
-        <form action="">
+        <form>
           <div class="modal-form-wrapper">
-            <label class="label" for="uzer-name">Name</label>
+            <label class="label" for="user-name">Name</label>
             <div class="input-container">
               <input class="form-input" id="user-name" name="user-name" type="text">
               <svg class="form-icon" width="18" height="24">
-              <use href="./images/icons.svg#icon-person"></use>
+                <use href="./images/icons.svg#icon-person"></use>
               </svg>
-              </div>
-              <div class="modal-form-wrapper">
-                <label class="label" for="uzer-phone">Phone</label>
-                <div class="input-container">
-                  <input class="form-input" type="text">
-                  <svg class="form-icon" width="18" height="24">
-                    <use href="./images/icons.svg#icon-phone"></use>
-                  </svg>
-                </div>
-                <div class="modal-form-wrapper">
-                  <label class="label" for="uzer-email">Email</label>
-                  <div class="input-container">
-                    <input class="form-input" type="text">
-                    <svg class="form-icon" width="18" height="24">
-                      <use href="./images/icons.svg#icon-email"></use>
-                    </svg>
-                  </div>
-                  <div class="textarea-checkbox-wrapper">
-                    <label class="label" for="user-comment">Comment</label>
-                    <textarea class="form-comment" name="uzer-comment" id="uzer-comment" placeholder="Text input"></textarea>
-                  </div>
-                  <div class="checkbox-wrapper">
-                    <input class="modal-checkbox" type="checkbox" id="uzer-privacy" value="true" name="uzer-privacy">
-                    <label class="label-checkbox" for="uzer-privacy">I accept the terms and conditions of the <a class="checkbox-link" href="">Privacy Police</a><span class="privacy-policy">
-                      <svg class="checkbox-icon" width="10" height="8">
-                        <use href="./images/icons.svg#icon-check"></use>
-                      </svg>
-                    </span></label>
-                  </div>
+            </div>
+          </div>
+
+          <div class="modal-form-wrapper">
+            <label class="label" for="user-phone">Phone</label>
+            <div class="input-container">
+              <input class="form-input" id="user-phone" name="user-phone" type="text">
+              <svg class="form-icon" width="18" height="24">
+                <use href="./images/icons.svg#icon-phone"></use>
+              </svg>
+            </div>
+          </div>
+
+          <div class="modal-form-wrapper">
+            <label class="label" for="user-email">Email</label>
+            <div class="input-container">
+              <input class="form-input" id="user-email" name="user-email" type="text">
+              <svg class="form-icon" width="18" height="24">
+                <use href="./images/icons.svg#icon-email"></use>
+              </svg>
+            </div>
+          </div>
+
+          <div class="textarea-checkbox-wrapper">
+            <label class="label" for="user-comment">Comment</label>
+            <textarea class="form-comment" name="user-comment" id="user-comment" placeholder="Text input"></textarea>
+          </div>
+
+          <div class="checkbox-wrapper">
+            <input class="modal-checkbox" type="checkbox" id="user-privacy" value="true" name="user-privacy">
+            <label class="label-checkbox" for="user-privacy">I accept the terms and conditions of the <a class="checkbox-link" href="">Privacy Policy</a>
+              <span class="privacy-policy">
+                <svg class="checkbox-icon" width="10" height="8">
+                  <use href="./images/icons.svg#icon-check"></use>
+                </svg>
+              </span>
+            </label>
+            </div>
+                  <button class="button-modal">Send</button>
                 </div>
               </div>
             </div>
