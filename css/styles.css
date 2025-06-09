@@ -734,3 +734,7 @@ a{
     margin-left: 16px;
     fill: #FFFFFF;
 }
+
+.form-content-input{
+    margin: 80px;
+}
