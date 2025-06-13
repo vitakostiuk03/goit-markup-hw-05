@@ -653,6 +653,7 @@ a{
     align-items: center;
     justify-content: center;
     fill: transparent;
+    margin-right: 8px;
 }
 
 .checkbox:checked + .label > .custom-checkbox{
@@ -734,7 +735,7 @@ a{
 }
 
 .form-content-input{
-    margin: 80px;
+    margin-left: 80px;
 }
 
 .modal-form:focus-within+.modal-form-icon {
